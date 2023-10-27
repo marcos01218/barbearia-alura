@@ -24,3 +24,7 @@
             #imagem {
                width: 100%;
             }
+
+            .itens {
+              font-style: italic;
+            }
