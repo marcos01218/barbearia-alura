@@ -5,17 +5,23 @@
              }   
     
             body {
-               background: #CCCCCC;
+               
             }
 
            em strong {
                color: #FF0000;
             }
 
-            h1 {
-               text-align: center;
-
+             .titulo-principal {
+               padding: 20px;
+               
             }
+
+
+            .titulo-meio {
+               text-align: center;
+            }
+
 
             #tk {
               font-size: 20px;
@@ -27,4 +33,25 @@
 
             .itens {
               font-style: italic;
+            }
+
+            .beneficios {
+               background: #FFFFFF;
+               padding: 20px;
+            }
+
+            .principal {
+               background: #CCCCCC;
+               padding: 30px;
+            }
+
+            .imagem2 {
+               width: 50%;
+            }
+
+            ul {
+               display: inline-block;
+               vertical-align: top;
+               width: 20%;
+               margin-right: 15%;
             }
