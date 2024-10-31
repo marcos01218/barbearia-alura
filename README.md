@@ -1,1 +1,5 @@
-Sobre a Barbearia Alura Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia. Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes". Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
+# Alura-BarberS
+
+*This repository contains the Alura barber shop site files in HTML5 and CSS3. This code was developed from the videos instructions made by Alura's instructor of the HTML and CSS3 course*.
+
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)

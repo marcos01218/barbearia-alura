@@ -1,113 +1,108 @@
-<!DOCTYPE html>
-<html>
-    <head>
-   	    <meta charset="UTF-8">
-   	    <title>Contato - Barbearia Alura</title>
+<!DOCTYPE html>										
+<html lang="pt-br">									
+	<head>											
+		<meta charset="UTF-8">		
+		<title>Contato</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">				
+	</head>
 
-        <link rel="stylesheet" href="reset.css">
-   	    <link rel="stylesheet" href="style.css">
+	<body>											
+		<header class="zoomimg">
+			<div class="caixa">
+				<a href="index.html">
+				<h1><img  href="index.html" class="logo" src="logo.png" alt="logo da barbearia"></h1> <!--scr = source-->
+				</a>
+				<nav><! navegação -->
+					<ul>
+						<li><a href="index.html"> Home </a></li>  <!--<a> de ancor - cria a indicaçao para outra página, o link-->
+						<li><a href="produtos.html"> Produtos </a></li> 
+						<li><a href="contato.html"> Contato </a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-    </head>
-    <body>
-    	<header>
-            <div class="caixa">
-    		<h1>
-    			<img src="logo.png" alt="Logo da Barbearia Alura">
+		<main>
+			<form>
+				<!-- Label e Input podem ficar conectados com uma id e um for -->
+				<label for="nomecompleto">Nome e Sobrenome</label>
+				<input type="text" id="nomecompleto" class="input-padrao" required>
 
-    		</h1>
-            <nav>
-    		<ul>
-    			<li><a href="index.html">Home</a>  </li>
-    			<li><a href="Produtos.html">Produtos</a> </li>
-    			<li><a href="Contato.html"> Contato </a>  </li>
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="email@dominio">
 
-    		</ul>
-            </nav>
-           </div>
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxx-xxxx">
 
-    	</header>
+				<label for="mensagem">Mensagem</label>
+				<textarea rows="10" id="mensagem" class="input-padrao"></textarea>
 
-        <main>
-            <form>
-                <label for="nome">Nome e Sobrenome</label>
-                <input type="text" id="nome" class="input-padrao" required>
+				<fieldset>
+					<legend>Como prefere nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" valeu="email" id="radio-email"> Email</label>		
+					<label for="radio-telefone"><input type="radio" name="contato" valeu="telefone" id="radio-telefone"> Telefone</label>	
+					<label for="radio-whatsapp"><input type="radio" name="contato" valeu="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+				<fieldset>
+				<p>Qual horário prefere ser atendido?</p>
 
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
 
-                <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+			    </fieldset>	
+				<label>
+					<input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?
+				</label>
 
-                <fieldset>
-                <legend>Como prefere nosso contato?</legend>
-                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-                
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
 
-                <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-               
+			<table>
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>horário</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>Segunda-Feira  </td>
+						<td>8h00 às 20h00</td>
+					</tr>
+					<tr>
+						<td>Terçça-Feira  </td>
+						<td>8h00 às 20h00</td>
+					</tr>
+					<tr>
+						<td>Quarta-Feira  </td>
+						<td>8h00 às 20h00</td>
+					</tr>
+					<tr>
+						<td>Quinta-Feira  </td>
+						<td>8h00 às 20h00</td>
+					</tr>
+					<tr>
+						<td>Sexta-Feira  </td>
+						<td>8h00 às 20h00</td>
+					</tr>
+					<tr>
+						<td>Sábados  </td>
+						<td>8h00 às 13h00</td>
+					</tr>
+				</tbody>	
+			</table>
+		</main>
 
-                 <label for="radio-whatsapp">  <input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
-              
-                </fieldset>
 
-                <fieldset>
-                <legend>Qual horário prefere ser atendido?</legend>
-                   <select>
-                    <option>Manhã</option>
-                    <option>Tarde</option>
-                    <option>Noite</option>
-                   </select>
-                </fieldset>
-
-
-                </select>
-
-                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
-
-                <input type="submit" value="Enviar Formulário" class="enviar">
-
-
-
-            </form>
-
-            <table>
-                <thead>
-                      <tr>
-                        <th>Dia</th>
-                        <th>Horário</th>
-                      </tr>
-               </thead>
-               <tbody>
-                  <tr>
-                    <td>Segunda</td>
-                    <td>8h ~ 20h</td>
-                  </tr>
-                  <tr>
-                    <td>Quarta</td>
-                    <td>8h ~ 20h</td>
-                  </tr>
-                  <tr>
-                    <td>Sexta</td>
-                    <td>8h ~ 20h</td>
-                  </tr>
-                </tbody>
-                
-
-            </table>
-        
-
-        </main>
-
-        <footer>
-     <img src="logo-branco.png" alt="Logo da Barbearia Alura">
-     <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
-    
-
- </footer>
-
-    </body>
-
+		<footer>
+		<img src="logo-branco.png" alt="logo da barberia">
+		<p class="copyright"> &copy;  Copyright - Barbearia Alura 2019</p>
+	</footer>
+	</body>
 </html>

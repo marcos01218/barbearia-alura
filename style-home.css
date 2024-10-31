@@ -1,57 +1,52 @@
+body {
+	
+}
 
-             p {
-                text-align: center;
+#banner {
+	width:100%;
+}
 
-             }   
-    
-            body {
-               
-            }
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
 
-           em strong {
-               color: #FF0000;
-            }
+.titulo-principal {
+	padding-left: 20px;
+}
 
-             .titulo-principal {
-               padding: 20px;
-               
-            }
+.titulo-centralizado {
+	text-align: center
+}
 
+p {
+	text-align: center;
+}
+/*inserimos # para criar um identificador*/
+#missao {
+	font-size: 20px
+}
 
-            .titulo-meio {
-               text-align: center;
-            }
+em strong {
+	color: #FF0000;
+}
 
+.itens {
+	font-style: italic
+}
 
-            #tk {
-              font-size: 20px;
-            }
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
 
-            #imagem {
-               width: 100%;
-            }
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
 
-            .itens {
-              font-style: italic;
-            }
-
-            .beneficios {
-               background: #FFFFFF;
-               padding: 20px;
-            }
-
-            .principal {
-               background: #CCCCCC;
-               padding: 30px;
-            }
-
-            .imagem2 {
-               width: 50%;
-            }
-
-            ul {
-               display: inline-block;
-               vertical-align: top;
-               width: 20%;
-               margin-right: 15%;
-            }
+.imagembeneficios {
+	width: 50%;
+}
